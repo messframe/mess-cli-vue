@@ -8,6 +8,14 @@
         "build": "vue-cli-service build --mode prod",
         "lint": "vue-cli-service lint"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/messframe/mess-cli-vue.git"
+    },
+    "bugs": {
+        "url": "https://github.com/messframe/mess-cli-vue/issues"
+    },
+    "homepage": "https://github.com/messframe/mess-cli-vue#readme",
     "dependencies": {
         "core-js": "^3.6.4",
         "single-spa-vue": "^1.5.2",
