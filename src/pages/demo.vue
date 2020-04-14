@@ -1,7 +1,7 @@
 <template>
     <section>
-        <button @click="goTo('homePage')">主页</button>
-        <button @click="goTo('about')">关于</button>
+        <button @click="goTo('/mess_vue/modulesA')">主页</button>
+        <button @click="goTo('/mess_vue/modulesA/about')">关于</button>
     </section>
 </template>
 
@@ -9,9 +9,8 @@
 export default {
     name: 'demo',
     methods: {
-        goTo (name) {
-            if (!name) return
-            this.$router.push({ name: name })
+        goTo (path) {
+            this.$singleSpa.router.push(path)
         }
     }
 }
