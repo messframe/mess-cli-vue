@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    lintOnSave: false,
     publicPath: process.env.NODE_ENV === 'development' ? 'http://localhost:8237' : '/mess_vue',
     chainWebpack: config => {
         config.entryPoints.clear()
