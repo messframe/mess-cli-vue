@@ -18,6 +18,7 @@
     "homepage": "https://github.com/messframe/mess-cli-vue#readme",
     "dependencies": {
         "core-js": "^3.6.4",
+        "mess-router": "0.0.6",
         "single-spa-vue": "^1.5.2",
         "systemjs-webpack-interop": "^1.1.0",
         "vue": "^2.6.11"
